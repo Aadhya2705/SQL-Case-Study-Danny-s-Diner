@@ -71,10 +71,10 @@ Danny wants to use data to answer a few questions about his customers, especiall
     VALUES
       ('A', '2021-01-07'),
       ('B', '2021-01-09');
-
----
-
- 1. What is the total amount each customer spent at the restaurant?
+      
+1. What is the total amount each customer spent at the restaurant?
+    
+**Query #1**
 
     SELECT sales.customer_id, SUM(price) AS total_amount_spent
     FROM dannys_diner.sales 
@@ -93,10 +93,10 @@ Danny wants to use data to answer a few questions about his customers, especiall
 [View on DB Fiddle](https://www.db-fiddle.com/f/2rM8RAnq7h5LLDTzZiRWcd/138)
 
 
-
+2. How many days has each customer visited the restaurant?
 
 **Query #2**
-
+   
     SELECT sales.customer_id, COUNT(distinct order_date) as days 
     FROM dannys_diner.sales
     GROUP BY sales.customer_id;
@@ -111,7 +111,7 @@ Danny wants to use data to answer a few questions about his customers, especiall
 
 [View on DB Fiddle](https://www.db-fiddle.com/f/2rM8RAnq7h5LLDTzZiRWcd/138)
 
-
+ 3. What was the first item from the menu purchased by each customer?
 
 **Query #3**
 
@@ -137,6 +137,8 @@ Danny wants to use data to answer a few questions about his customers, especiall
 
 ---
 
+4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+
 **Query #4**
 
     SELECT 
@@ -161,6 +163,8 @@ Danny wants to use data to answer a few questions about his customers, especiall
 
 
 ---
+
+ 5. Which item was the most popular for each customer?
 
 **Query #5**
 
@@ -191,6 +195,8 @@ Danny wants to use data to answer a few questions about his customers, especiall
 
 ---
 
+ 6. Which item was purchased first by the customer after they became a member?
+
 **Query #6**
 
     SELECT 
@@ -217,6 +223,8 @@ Danny wants to use data to answer a few questions about his customers, especiall
 
 ---
 
+ 7. Which item was purchased just before the customer became a member?
+ 
 **Query #7**
 
     SELECT 
@@ -246,6 +254,8 @@ Danny wants to use data to answer a few questions about his customers, especiall
 
 ---
 
+ 8.  8. What is the total items and amount spent for each member before they became a member?
+
 **Query #8**
 
     SELECT 
@@ -269,6 +279,8 @@ Danny wants to use data to answer a few questions about his customers, especiall
 [View on DB Fiddle](https://www.db-fiddle.com/f/2rM8RAnq7h5LLDTzZiRWcd/138)
 
 ---
+
+ 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
 **Query #9**
 
