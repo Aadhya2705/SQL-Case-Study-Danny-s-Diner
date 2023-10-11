@@ -93,6 +93,7 @@ Danny wants to use data to answer a few questions about his customers, especiall
 [View on DB Fiddle](https://www.db-fiddle.com/f/2rM8RAnq7h5LLDTzZiRWcd/138)
 
 
+
 2. How many days has each customer visited the restaurant?
 
 **Query #2**
