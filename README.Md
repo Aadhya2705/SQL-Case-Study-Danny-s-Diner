@@ -12,8 +12,8 @@ Danny wants to use data to answer a few questions about his customers, especiall
  5. Which item was the most popular for each customer?
  6. Which item was purchased first by the customer after they became a member?
  7. Which item was purchased just before the customer became a member?
- 8.  8. What is the total items and amount spent for each member before they became a member?
- 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+ 8. What is the total items and amount spent for each member before they became a member?
+ 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 
 
 **Schema (PostgreSQL v13)**
