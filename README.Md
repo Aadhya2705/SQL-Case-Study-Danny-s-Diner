@@ -1,9 +1,9 @@
 # SQL Case Study- Danny's Diner 
 Danny wants to use data to answer a few questions about his customers, especially about their visiting patterns and also which menu item is their favourite. Answering these questions will enable Danny to understand his customer base better and provide a more personalised experience to them! 
 
-/* --------------------
+
    Case Study Questions
-   --------------------*/
+  
 
  1. What is the total amount each customer spent at the restaurant?
  2. How many days has each customer visited the restaurant?
